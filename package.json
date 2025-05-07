@@ -1,0 +1,22 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon ./dist/index.js",
+    "build": "tsc --outDir ./dist"
+  },
+  "keywords": [],
+  "author": "Álvaro Gabriel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.14",
+    "dotenv": "^16.5.0"
+  }
+}
